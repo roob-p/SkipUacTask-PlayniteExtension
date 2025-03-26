@@ -15,7 +15,7 @@
   - If there isn't any action and the game is managed by the library integration, a File Dialog pointing on install folder appears, prompting to choose the game's exe.
   - If there's an gameaction with empty path on top, or if the path content is unsopported (e.g a manual in pdf) the same File Dialog appears.
   - If there's an action with an exe defined on top, the path content will be taken.
-- **In case of Steam, Epic and Ubisoft connect games, client process will be killed, then started again with elevated privileges and then the game will be launched through the choosen exe.**
+- **For Steam, Epic, and Ubisoft Connect games, the client process will be terminated, restarted with elevated privileges, and then the game will be launched through the chosen executable.**
 
 ## Troubleshooting and Configuration:
 
