@@ -40,3 +40,25 @@ This extension comes with no warranties. Please, read the instructions and be aw
 - I'm not sure if Splinter Cell Conviction is closed and restarted to run without administrator privileges. However, I haven't tested what happens with other Ubisoft Connect games.
 - When launching GTAV after a long time with TaskSkipUac, a message appeared while logging into Rockstar stating that the game couldn't be found on the account. I'm not sure if this issue was caused by launching the game with administrator privileges, but running it with elevated rights didn't cause any other problems.
 - For some launchers, I've only tested one game (Burnout Paradise for EA App, Splinter Cell Conviction for Ubisoft Connect, Grand Theft Auto V for Epic). I've done several tests with Steam games, although I don't have any games that require administrator privileges.
+
+If you enjoy the extension, you can buy me a coffee. It will be very appreciated ;)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E214R1KB)
+
+- Install directly:
+  [SkipUacTask](https://playnite.link/addons.html#SkipUacTask)
+- Download last version:
+[v1.0.1]( https://github.com/roob-p/SkipUacTask-PlayniteExtension/releases/download/v1.0.1/SkipUacTask_v1.0.1.pext)
+
+<table style="width: 100%; text-align: left;">
+  <tr>
+    <td style="padding: 0; vertical-align: top;">
+      <img src="https://github.com/roob-p/SkipUacTask-PlayniteExtension/blob/main/media/1.gif" style="width: 100%; height: auto;" />
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 0; vertical-align: top;">
+      <img src="https://github.com/roob-p/SkipUacTask-PlayniteExtension/blob/main/media/2.gif" style="width: 100%; height: auto;" />
+    </td>
+  </tr>
+</table>
