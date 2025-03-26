@@ -24,7 +24,7 @@
 
 
 ## Warning:
-This extension comes with no warranties. Please, read the instructions and be aware that to make this extension work, it’s a bit of a gimmick. There may be some features that don’t work, bugs, and other issues. Please, pay attention if you're downloading a game. In my tries the client resumes froom  where it leff off, but I can't bee sure for all the cases.
+This extension comes with no warranties. Please, read the instructions and be aware that to make this extension work, it involves a bit of a workaround. Some features may not work, there could be bugs, and other issues. Please, be cautios when you're downloading a game. In my tests, the client resumes from where it leff off, but I can't bee sure about all the cases.
 
 ## Notes:
 - Tell me if you would you like to have a new feature or the support for an other launcher. Feel free to report bugs or problems.
