@@ -33,6 +33,7 @@ This extension comes with no warranties. Please, read the instructions and be aw
 ## Notes:
 - Tell me if you would you like to have a new feature or the support for an other launcher. Feel free to report bugs or problems.
 - In future I may add support for other launchers. I haven't try Bethesda, Indiegala, Xbox Game and Xbox Game Pass.
+- If you start Steam games with parameters, Steam will ask you if you want to run the game with those parameters. Therefore, I have disabled the arguments for Steam (I've left comments).
 - From what I've observed, GOG launcher has a service that ensures to execute things with elevated privileges when needed, so SkipUacTask will not affect GOG's games.
 - Based on my tests, EA App can't run games like administrator.
 - Amazon Games doesn't require the launcher to be started. However, I haven't added support for it yet. Let me know if there are Amazon Games that require administrator privileges.
