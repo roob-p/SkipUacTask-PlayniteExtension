@@ -49,6 +49,7 @@ This extension comes with no warranties. Please, read the instructions and be aw
 If you enjoy the extension, you can buy me a coffee. It will be very appreciated ;)
 
 
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E214R1KB)
 
 - Github: [roop-p/SkipUacTask-PlayniteExtension](https://github.com/roob-p/SkipUacTask-PlayniteExtension)
@@ -69,7 +70,6 @@ If you enjoy the extension, you can buy me a coffee. It will be very appreciated
     </td>
   </tr>
 </table>
-
-- [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E214R1KB)            
+     
 
 
