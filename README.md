@@ -19,8 +19,8 @@
 
 ## Troubleshooting and Configuration:
 
-- Some games require to be started with a delay to ensure that the client has been fully started. If you launch a game and you get "The SkipUacTask window has been closed" message, change the $client_wait variable to something like 5 (this is the value I set for GTAV for Epic). You can change it per game on game's action script, or globally. 
-- Some games (for the moment I only noticed with Ubisoft Connect, with Splinter Cell Convition) will terminate game's exe and releaunch it, so Batkiller will close the SkipUacTask window and you'll return to Playnite. In these cases you need to set the $wait_exe variable to a different value like 15 or 20 (seconds), so when a game's process will be terminated Batkiller will wait the game's process for the defined time. $wait_exe (available only on client-managed games) does not delay the game starts, but will delay the return to Playnite once the games is closed. The default value is 3 seconds. You can edit it in game's action script or alter globally editing the extension and reloading it.
+- Some games require to be started with a delay to ensure that the client has been fully started. If you launch a game and receive "The SkipUacTask window has been closed" message, change the $client_wait variable to a value like 5 (this is the value I set for GTAV for Epic). You can adjust it per game on game's action script, or globally. 
+- Some games (so far, I've only noticed this with Ubisoft Connect and Splinter Cell Conviction) will terminate game's exe and releaunch it, so Batkiller will close the SkipUacTask window and you'll return to Playnite. In these cases you need to set the $wait_exe variable to a higher value such as 15 or 20 (seconds), so when a game's process will be terminated Batkiller will wait the game's process for the defined time. $wait_exe (available only on client-managed games) does not delay the game starts, but will delay the return to Playnite once the games is closed. The default value is 3 seconds. You can edit it in game's action script or alter globally editing the extension and reloading it.
 
 
 ## Warning:
