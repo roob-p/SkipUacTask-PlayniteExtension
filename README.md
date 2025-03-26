@@ -2,9 +2,9 @@
 
 - This extension allows you to automatically create administrator tasks in Task Scheduler for games that trigger UAC prompts, adding a new Script action with all the necessary commands.
 - It works with emulated games that require privileges (such as Bluestack games), standalone games and with Steam, Epic and Ubisoft Connect games. 
-- For client-based games the extension employs a workaround: the launcher will is terminated and restarted with elevated privileges, after which the game is launched. This ensures that certain titles, like GTA V on Epic, will not trigger any UAC prompts.
-- Game time tracking works flawlessy, thanks to a background process launched by the script.
-- To use this extension you need to read how it works. Some game will also require to set two parameters for running.
+- For client-based games the extension employs a workaround: the launcher is terminated and restarted with elevated privileges, after which the game is launched. This ensures that certain titles, like GTA V on Epic, will not trigger any UAC prompts.
+- Game time tracking works flawlessly, thanks to a background process launched by the script.
+- To use this extension you need to read how it works. Some games may also require setting two parameters for running.
 
 ## How it works:
 
@@ -12,8 +12,8 @@
 - When launching a game with SkipUacTask action, a batch file (.bat) is executed to start the associated task in TaskScheduler, allowing the game to run with elevated privileges without UAC prompt.
 - Game time tracking works perfectly: the script first creates a background window (SkipUacTask) that ensures the tracking with its presence, then starts a program (Batkiller) that checks the presence of game's exe. Once the game is closed Batkiller terminates the SkipUacTask window and you'll return to Playnite. 
 - **For games managed by launchers (Steam, Epic, Ubisoft Connect):**
-  - If there isn't any action and the game is managed by the library integration, a File Dialog pointing on install folder appears, prompting to choose the game's exe.
-  - If there's an gameaction with empty path on top, or if the path content is unsopported (e.g a manual in pdf) the same File Dialog appears.
+  - If there isn't any action and the game is managed by the library integration, a file dialog pointing on install folder appears, prompting you to choose the game's exe.
+  - If there's a gameaction with an empty path on top, or if the path content is unsopported (e.g, a manual in .pdf) the same file dialog appears.
   - If there's an action with an exe defined on top, the path content will be taken.
 - **For Steam, Epic, and Ubisoft Connect games, the client process will be terminated, restarted with elevated privileges, and then the game will be launched through the chosen executable.**
 
@@ -24,14 +24,14 @@
 
 
 ## Warning:
-This extension comes with no warranties. Please, read the instructions and be aware that to work this extension is a bit gymmick. Probably there will be some things that can not work, bugs and others. Please, pay attention if you're downloading a game. In my tries the client resumes froom  where it leff off, but I can't bee sure for all the cases.
+This extension comes with no warranties. Please, read the instructions and be aware that to make this extension work, it’s a bit of a gimmick. There may be some features that don’t work, bugs, and other issues. Please, pay attention if you're downloading a game. In my tries the client resumes froom  where it leff off, but I can't bee sure for all the cases.
 
 ## Notes:
 - Tell me if you would you like to have a new feature or the support for an other launcher. Feel free to report bugs or problems.
 - In future I may add support for other launchers. I haven't try Bethesda, Indiegala, Xbox Game and Xbox Game Pass.
 - From what I've observed, GOG launcher has a service that ensures to execute things with elevated privileges when needed, so SkipUacTask will not affect GOG's games.
 - Based on my tests, EA App can't run games like administrator.
-- Amazon Games doesn't require the launcher to be started. However, I haven't added support for it yet. Let me know if there are any games on Amazon Games that require administrator privileges.
-- I'm not sure if Splinter Cell Conviction is closed and restarted to run without administrator privileges, but I don't think it is. However, I haven't tested what happens with other Ubisoft Connect games.
+- Amazon Games doesn't require the launcher to be started. However, I haven't added support for it yet. Let me know if there are Amazon Games that require administrator privileges.
+- I'm not sure if Splinter Cell Conviction is closed and restarted to run without administrator privileges. However, I haven't tested what happens with other Ubisoft Connect games.
 - When launching GTAV after a long time with TaskSkipUac, a message appeared while logging into Rockstar stating that the game couldn't be found on the account. I'm not sure if this issue was caused by launching the game with administrator privileges, but running it with elevated rights didn't cause any other problems.
 - For some launchers, I've only tested one game (Burnout Paradise for EA App, Splinter Cell Conviction for Ubisoft Connect, Grand Theft Auto V for Epic). I've done several tests with Steam games, although I didn't have any games that require administrator privileges. However, I might need to reinstall Max Payne 3, as I remember it triggered many UAC prompts, similar to GTA V.
