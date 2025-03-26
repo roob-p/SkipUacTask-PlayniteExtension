@@ -11,7 +11,7 @@
 - For non-client based games (such as ROMs, or standalone titles where the exe is defined in the game action's path) SkipUacTask takes the path of the 1st game action (at the top). A new Script-type game action `(SkipUacTask)` will be created and placed above the existing ones, then the extension creates a task in the Taskscheduler with administrator privileges. 
 - When launching a game with `SkipUacTask action`, a batch file (.bat) is executed to start the associated task in TaskScheduler, allowing the game to run with elevated privileges without UAC prompt.
 - Game time tracking works perfectly: the script first creates a background window `(SkipUacTask)` that ensures the tracking with its presence, then starts a program `(Batkiller)` that checks the presence of game's exe. Once the game is closed, Batkiller terminates the `SkipUacTask window` and you'll return to Playnite. 
-- **For games managed by launchers `(Steam, Epic, Ubisoft Connect)`:**
+- **For games managed by launchers `(Steam, Epic, Ubisoft Connect):`**
   - If there isn't any action and the game is managed by the library integration, a file dialog pointing on install folder appears, prompting you to choose the game's exe.
   - If there's a gameaction with an empty path on top, or if the path content is unsopported (e.g, a manual in .pdf) the same file dialog appears.
   - If there's an action with an exe defined on top, the path content will be taken.
