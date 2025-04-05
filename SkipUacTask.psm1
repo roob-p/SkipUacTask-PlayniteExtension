@@ -701,7 +701,7 @@ $game_dir=[System.IO.Path]::GetDirectoryName($game_fold)
 	
 
 
-#$game.gameactions = New-Object System.Collections.Generic.List[Playnite.SDK.Models.GameAction]
+$game.gameactions = New-Object System.Collections.Generic.List[Playnite.SDK.Models.GameAction]
 $newgameaction = New-Object Playnite.SDK.Models.GameAction
 
 
