@@ -10,3 +10,4 @@ docs/ export-ignore
 .github/ export-ignore
 .gitattributes export-ignore
 manifest.yaml export-ignore
+extension.yaml
