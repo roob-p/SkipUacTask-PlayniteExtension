@@ -1,7 +1,7 @@
 ﻿Id: SkipUacTask
 Name: SkipUacTask
 Author: roob-p
-Version: 1.0.1
+Version: 1.0.2
 Module: SkipUacTask.psm1
 Type: Script
 Icon: icon.png
