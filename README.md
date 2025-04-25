@@ -1,4 +1,4 @@
-# SkipUacTask (PlayniteExtension)
+# 🚀 SkipUacTask (PlayniteExtension)
 
 - This extension allows you to automatically create administrator tasks in Task Scheduler for games that require elevated rights, allowing them to run without triggering any UAC prompts. A new Script action named SkipUacTask, containing all the necessary commands, will be created.
 - It works with emulated games that require privileges (such as Bluestack games), standalone games and with Steam, Epic and Ubisoft Connect games. 
@@ -6,7 +6,7 @@
 - Game time tracking works flawlessly, thanks to a background process launched by the script.
 - Please read how this extension works. Some games may also require setting two parameters for running.
 
-## How it works:
+## 🛠️ How it works:
 
 - For standalone titles (non-client-based games) where the executable is defined in the game action's path, SkipUacTask takes the path from the first game action (the topmost one). For ROMs, it automatically retrieves all emulation-related information, specifically the emulator used, profile, arguments, and additional arguments. A new Script-type game action (SkipUacTask) will be created and placed above the existing ones. The extension then creates a task in Task Scheduler with administrator privileges.
 - When launching a game with the SkipUacTask action, a batch file (.bat) is executed to start the associated task in Task Scheduler, allowing the game to run with elevated privileges without a UAC prompt.
@@ -17,7 +17,7 @@
   - If there's an action with an exe defined on top, the path content will be taken.
 - **For Steam, Epic, and Ubisoft Connect games, the client process will be terminated, restarted with elevated privileges, and then the game will be launched through the chosen executable. Once the game is closed, the client will be ended and relaunched without administrative rights.**
 
-## Troubleshooting and Configuration:
+## ⚙️ Troubleshooting and Configuration:
 
 - Some games require to being started with a delay to ensure that the client has been fully started. If you launch a game and get `"The SkipUacTask window has been closed"`, set the `$client_wait` variable to a value like 5 (this is the value I set for GTAV for Epic). You can adjust it per game in the game's action script, or globally. 
 - With some games (so far, I've only noticed this with Ubisoft Connect and Splinter Cell Conviction) the launcher will terminate game's exe and relaunch it, so `Batkiller` will close the SkipUacTask window and you'll return to Playnite. In these cases you need to set the `$wait_exe` variable to a higher value such as 15 or 20 (seconds), so when a game's process will be terminated `Batkiller` will wait for the game's process for the defined amount of time. The variable (available only on client-managed games) does not delay the game start, but will delay the return to Playnite once the game is closed. The default value is 3 seconds. You can edit it in game's action script or alter globally editing the extension and reloading it.
@@ -28,10 +28,10 @@
  - `$global:lnkstyle` defines the behavior of SkipUacTask when a .lnk file is defined in the action's path. When lnkstyle is set to 2, the .lnk file will be maintained, so the Task Scheduler task will launch the .lnk file directly. When lnkstyle is set to 1, SkipUacTask retrieves the target of the .lnk file, so the Task Scheduler task will launch the pointed executable along with its parameters.
 
 
-## Warning:
+## ⚠️ Warning:
 This extension comes with no warranties. Please read the instructions and be aware that, in order to make this extension work, I had to find some workarounds. Some features may not work, there could be bugs, and other issues. Please, be cautios when you're downloading a game. In my tests, the client resumes from where it leff off, but I can't bee sure about all the cases.
 
-## Notes:
+## 📝 Notes:
 - Feel free to report bugs or problems, and let me know if you'd like a new feature or support for another launcher.. 
 - In future I may add support for other launchers. I haven't try Bethesda, Indiegala, Xbox Game and Xbox Game Pass.
 - If you start Steam games with parameters, Steam will ask you if you want to run the game with those parameters. Therefore, I have disabled the arguments for Steam (I've left comments).
