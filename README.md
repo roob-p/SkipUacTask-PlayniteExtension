@@ -28,7 +28,8 @@
   - `$global:oldaction_actionstart` Defines the behaviour of the previous top action. If $False IsPlay is turned off. If $True the setting will not be changed.
  - `$global:lnkstyle` defines the behavior of SkipUacTask when a .lnk file is defined in the action's path. When lnkstyle is set to 2, the .lnk file will be maintained, so the Task Scheduler task will launch the .lnk file directly. When lnkstyle is set to 1, SkipUacTask retrieves the target of the .lnk file, so the Task Scheduler task will launch the pointed executable along with its parameters.
 - When using emulators, **relative paths** (e.g., `.\cores\pcsx1_libretro.dll`) specified in the **Parameters** and **Additional arguments** fields (both in customs and integrated profiles) are automatically **converted to absolute paths** when the Task Scheduler task is created. This ensures the task runs correctly.  
-For example, in a RetroArch profile where Integrated Parameters are: `-L ".\cores\pcsx1_libretro.dll" "{ImagePath}"` and RetroArch is installed in `C:\RetroArch`, the final command in the task will be: `-L "C:\RetroArch\cores\pcsx1_libretro.dll" "X:\Games\MyGame.iso"`  
+For example, in a RetroArch profile where Integrated Parameters are: `-L ".\cores\pcsx1_libretro.dll" "{ImagePath}"` and RetroArch is installed in `C:\RetroArch`, the final command in the task will be:  
+`-L "C:\RetroArch\cores\pcsx1_libretro.dll" "X:\Games\MyGame.iso"`  
 Any path starting with `.\` will be replaced by the full path of the emulator defined in the action or profile.
 
 
