@@ -59,7 +59,7 @@ If you enjoy the extension, you can buy me a coffee. It will be very appreciated
 - Install directly:
   [SkipUacTask](https://playnite.link/addons.html#SkipUacTask)
 - Download last version:
-[v1.0.2]( https://github.com/roob-p/SkipUacTask-PlayniteExtension/releases/download/v1.0.1/SkipUacTask_v1.0.2.pext)
+[v1.0.2]( https://github.com/roob-p/SkipUacTask-PlayniteExtension/releases/download/v1.0.2/SkipUacTask_v1.0.2.pext)
 
 <table style="width: 100%; text-align: left;">
   <tr>
