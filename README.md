@@ -1,5 +1,6 @@
 # 🛡️ SkipUacTask (PlayniteExtension)
-✨ An extension for launching games that require admin privileges without Uac prompt.
+✨ Play your favourite games with elevated rights, without being interrupted by UAC prompts.
+<!--✨ An extension for launching games that require admin privileges without Uac prompt. !-->
 
 - This extension allows you to automatically create administrator tasks in Task Scheduler for games that require elevated rights, allowing them to run without triggering any UAC prompts. A new Script action named SkipUacTask, containing all the necessary commands, will be created.
 - It works with emulated games that require privileges (such as Bluestack games), standalone games and with Steam, Epic and Ubisoft Connect games. 
