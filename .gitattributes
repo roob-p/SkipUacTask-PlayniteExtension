@@ -15,3 +15,4 @@ SkipUacTask_v1.0.2.pext export-ignore
 SkipUacTask_v1.0.2.5.pext export-ignore
 SkipUacTask_v1.0.2.psm1 export-ignore
 SkipUacTask_v1.0.2.5.psm1 export-ignore
+*.pext export-ignore
