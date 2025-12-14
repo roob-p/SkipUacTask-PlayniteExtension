@@ -11,3 +11,7 @@ docs/ export-ignore
 .gitattributes export-ignore
 manifest.yaml export-ignore
 extension.yaml
+SkipUacTask_v1.0.2.pext export-ignore
+SkipUacTask_v1.0.2.5.pext export-ignore
+SkipUacTask_v1.0.2.psm1 export-ignore
+SkipUacTask_v1.0.2.5.psm1 export-ignore
