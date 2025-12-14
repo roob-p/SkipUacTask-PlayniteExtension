@@ -3,25 +3,23 @@ Packages:
   - Version: 1.0.3
     RequiredApiVersion: 6.0.0
     ReleaseDate: 2025-12-14
-    PackageUrl: >-
-     https://github.com/roob-p/SkipUacTask-PlayniteExtension/releases/download/v1.0.3/SkipUacTask_v1.0.3.pext
+    PackageUrl: https://github.com/roob-p/SkipUacTask-PlayniteExtension/releases/download/v1.0.3/SkipUacTask_v1.0.3.pext
     Changelog:
       - All selected games now prompt UAC only once and open a single PowerShell window when creating tasks (a temporary file RunAllScripts.ps1 is created).
       - Improved dialogs. Messages now show the game name and a notification appears when all selected games already have SkipUacTask as the first action, along with other minor improvements.
   - Version: 1.0.2
     RequiredApiVersion: 6.0.0
     ReleaseDate: 2025-04-05
-    PackageUrl: >-
-     https://github.com/roob-p/SkipUacTask-PlayniteExtension/releases/download/v1.0.2/SkipUacTask_v1.0.2.pext
+    PackageUrl: https://github.com/roob-p/SkipUacTask-PlayniteExtension/releases/download/v1.0.2/SkipUacTask_v1.0.2.pext
     Changelog:
       - Fixed an issue where `GameActions` were not being created 
   - Version: 1.0.1
     RequiredApiVersion: 6.0.0
     ReleaseDate: 2025-03-26
-    PackageUrl: >-
-     https://github.com/roob-p/SkipUacTask-PlayniteExtension/releases/download/v1.0.1/SkipUacTask_v1.0.1.pext
+    PackageUrl: https://github.com/roob-p/SkipUacTask-PlayniteExtension/releases/download/v1.0.1/SkipUacTask_v1.0.1.pext
     Changelog:
       - Initial release
+
 
 
 
