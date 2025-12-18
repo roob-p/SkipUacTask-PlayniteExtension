@@ -3,6 +3,8 @@
 [![🔙 Back](https://img.shields.io/badge/🔙-Back-white?style=flat-square&logoColor=blue&color=blue)](https://roob-p.github.io)
 
 # 🛡️ SkipUacTask (PlayniteExtension)
+![GitHub Downloads](https://img.shields.io/github/downloads/roob-p/SkipUacTask-PlayniteExtension/total)
+
 ✨ Play your favourite games with elevated rights, without being interrupted by UAC prompts.
 <!--✨ An extension for launching games that require admin privileges without Uac prompt. !-->
 
